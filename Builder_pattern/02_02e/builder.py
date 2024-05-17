@@ -2,6 +2,7 @@ class Director():
     """Director"""
 
     def __init__(self, builder):
+        """ Dependency Injection while creating a Director entity we give him a Builder """
         self._builder = builder
 
     def construct_car(self):

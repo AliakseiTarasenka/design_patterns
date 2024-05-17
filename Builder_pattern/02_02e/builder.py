@@ -1,4 +1,4 @@
-class Director():
+class Director:
     """Director"""
 
     def __init__(self, builder):
@@ -15,7 +15,7 @@ class Director():
         return self._builder.car
 
 
-class Builder():
+class Builder:
     """Abstract Builder"""
 
     def __init__(self):
@@ -38,7 +38,7 @@ class SkyLarkBuilder(Builder):
         self.car.engine = "Turbo engine"
 
 
-class Car():
+class Car:
     """Product"""
 
     def __init__(self):
